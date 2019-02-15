@@ -1,0 +1,733 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		364FD191AA10080C7A8C61C9 /* libPods-Planise.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 44E48B599F38F213BD08451E /* libPods-Planise.a */; };
+		B6FFB8F41FD81798006AEEC8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B6FFB8F31FD81798006AEEC8 /* AppDelegate.m */; };
+		B6FFB8F71FD81798006AEEC8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6FFB8F61FD81798006AEEC8 /* ViewController.m */; };
+		B6FFB8FA1FD81798006AEEC8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6FFB8F81FD81798006AEEC8 /* Main.storyboard */; };
+		B6FFB8FC1FD81798006AEEC8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6FFB8FB1FD81798006AEEC8 /* Assets.xcassets */; };
+		B6FFB8FF1FD81798006AEEC8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6FFB8FD1FD81798006AEEC8 /* LaunchScreen.storyboard */; };
+		B6FFB9021FD81798006AEEC8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B6FFB9011FD81798006AEEC8 /* main.m */; };
+		B6FFB90C1FD81798006AEEC8 /* PlaniseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B6FFB90B1FD81798006AEEC8 /* PlaniseTests.m */; };
+		B6FFB9171FD81798006AEEC8 /* PlaniseUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B6FFB9161FD81798006AEEC8 /* PlaniseUITests.m */; };
+		B6FFB92B1FD8DDF8006AEEC8 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6FFB92A1FD8DDF8006AEEC8 /* TableViewController.m */; };
+		B6FFB92F1FD91249006AEEC8 /* Transaction.m in Sources */ = {isa = PBXBuildFile; fileRef = B6FFB92E1FD91249006AEEC8 /* Transaction.m */; };
+		B6FFB9321FD9188E006AEEC8 /* AddViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6FFB9311FD9188E006AEEC8 /* AddViewController.m */; };
+		B6FFB9351FD98892006AEEC8 /* TransactionModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B6FFB9341FD98892006AEEC8 /* TransactionModel.m */; };
+		B6FFB93C1FD9C95A006AEEC8 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6FFB93B1FD9C95A006AEEC8 /* MainViewController.m */; };
+		B6FFB9421FDAB5A9006AEEC8 /* AccountViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6FFB9411FDAB5A9006AEEC8 /* AccountViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B6FFB9081FD81798006AEEC8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B6FFB8E71FD81798006AEEC8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B6FFB8EE1FD81798006AEEC8;
+			remoteInfo = Planise;
+		};
+		B6FFB9131FD81798006AEEC8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B6FFB8E71FD81798006AEEC8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B6FFB8EE1FD81798006AEEC8;
+			remoteInfo = Planise;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		44E48B599F38F213BD08451E /* libPods-Planise.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Planise.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A25D25A3D4471C77C1CF547A /* Pods-Planise.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Planise.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Planise/Pods-Planise.debug.xcconfig"; sourceTree = "<group>"; };
+		B6FFB8EF1FD81798006AEEC8 /* Planise.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Planise.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6FFB8F21FD81798006AEEC8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B6FFB8F31FD81798006AEEC8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B6FFB8F51FD81798006AEEC8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B6FFB8F61FD81798006AEEC8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B6FFB8F91FD81798006AEEC8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B6FFB8FB1FD81798006AEEC8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B6FFB8FE1FD81798006AEEC8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B6FFB9001FD81798006AEEC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B6FFB9011FD81798006AEEC8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B6FFB9071FD81798006AEEC8 /* PlaniseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlaniseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6FFB90B1FD81798006AEEC8 /* PlaniseTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlaniseTests.m; sourceTree = "<group>"; };
+		B6FFB90D1FD81798006AEEC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B6FFB9121FD81798006AEEC8 /* PlaniseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlaniseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6FFB9161FD81798006AEEC8 /* PlaniseUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlaniseUITests.m; sourceTree = "<group>"; };
+		B6FFB9181FD81798006AEEC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B6FFB9251FD81E31006AEEC8 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		B6FFB9291FD8DDF8006AEEC8 /* TableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		B6FFB92A1FD8DDF8006AEEC8 /* TableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		B6FFB92D1FD91249006AEEC8 /* Transaction.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Transaction.h; sourceTree = "<group>"; };
+		B6FFB92E1FD91249006AEEC8 /* Transaction.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Transaction.m; sourceTree = "<group>"; };
+		B6FFB9301FD9188E006AEEC8 /* AddViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AddViewController.h; sourceTree = "<group>"; };
+		B6FFB9311FD9188E006AEEC8 /* AddViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AddViewController.m; sourceTree = "<group>"; };
+		B6FFB9331FD98892006AEEC8 /* TransactionModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TransactionModel.h; sourceTree = "<group>"; };
+		B6FFB9341FD98892006AEEC8 /* TransactionModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TransactionModel.m; sourceTree = "<group>"; };
+		B6FFB93A1FD9C959006AEEC8 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		B6FFB93B1FD9C95A006AEEC8 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		B6FFB9401FDAB5A9006AEEC8 /* AccountViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AccountViewController.h; sourceTree = "<group>"; };
+		B6FFB9411FDAB5A9006AEEC8 /* AccountViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AccountViewController.m; sourceTree = "<group>"; };
+		F71C618173AD2EAB4F113CDF /* Pods-Planise.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Planise.release.xcconfig"; path = "Pods/Target Support Files/Pods-Planise/Pods-Planise.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B6FFB8EC1FD81798006AEEC8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				364FD191AA10080C7A8C61C9 /* libPods-Planise.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6FFB9041FD81798006AEEC8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6FFB90F1FD81798006AEEC8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B6FFB8E61FD81798006AEEC8 = {
+			isa = PBXGroup;
+			children = (
+				B6FFB8F11FD81798006AEEC8 /* Planise */,
+				B6FFB90A1FD81798006AEEC8 /* PlaniseTests */,
+				B6FFB9151FD81798006AEEC8 /* PlaniseUITests */,
+				B6FFB8F01FD81798006AEEC8 /* Products */,
+				B7CA0EC3988309DE997BB296 /* Pods */,
+				CCE013722A48C9E21870FBB8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B6FFB8F01FD81798006AEEC8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B6FFB8EF1FD81798006AEEC8 /* Planise.app */,
+				B6FFB9071FD81798006AEEC8 /* PlaniseTests.xctest */,
+				B6FFB9121FD81798006AEEC8 /* PlaniseUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B6FFB8F11FD81798006AEEC8 /* Planise */ = {
+			isa = PBXGroup;
+			children = (
+				B6FFB9001FD81798006AEEC8 /* Info.plist */,
+				B6FFB9251FD81E31006AEEC8 /* GoogleService-Info.plist */,
+				B6FFB9361FD988A3006AEEC8 /* Model */,
+				B6FFB92C1FD8EAA1006AEEC8 /* View */,
+				B6FFB9241FD81880006AEEC8 /* Controller */,
+				B6FFB9431FDB005B006AEEC8 /* Supporting Files */,
+			);
+			path = Planise;
+			sourceTree = "<group>";
+		};
+		B6FFB90A1FD81798006AEEC8 /* PlaniseTests */ = {
+			isa = PBXGroup;
+			children = (
+				B6FFB90B1FD81798006AEEC8 /* PlaniseTests.m */,
+				B6FFB90D1FD81798006AEEC8 /* Info.plist */,
+			);
+			path = PlaniseTests;
+			sourceTree = "<group>";
+		};
+		B6FFB9151FD81798006AEEC8 /* PlaniseUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B6FFB9161FD81798006AEEC8 /* PlaniseUITests.m */,
+				B6FFB9181FD81798006AEEC8 /* Info.plist */,
+			);
+			path = PlaniseUITests;
+			sourceTree = "<group>";
+		};
+		B6FFB9241FD81880006AEEC8 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B6FFB93A1FD9C959006AEEC8 /* MainViewController.h */,
+				B6FFB93B1FD9C95A006AEEC8 /* MainViewController.m */,
+				B6FFB8F51FD81798006AEEC8 /* ViewController.h */,
+				B6FFB8F61FD81798006AEEC8 /* ViewController.m */,
+				B6FFB9291FD8DDF8006AEEC8 /* TableViewController.h */,
+				B6FFB92A1FD8DDF8006AEEC8 /* TableViewController.m */,
+				B6FFB92D1FD91249006AEEC8 /* Transaction.h */,
+				B6FFB92E1FD91249006AEEC8 /* Transaction.m */,
+				B6FFB9301FD9188E006AEEC8 /* AddViewController.h */,
+				B6FFB9311FD9188E006AEEC8 /* AddViewController.m */,
+				B6FFB9401FDAB5A9006AEEC8 /* AccountViewController.h */,
+				B6FFB9411FDAB5A9006AEEC8 /* AccountViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		B6FFB92C1FD8EAA1006AEEC8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B6FFB8F81FD81798006AEEC8 /* Main.storyboard */,
+				B6FFB8FB1FD81798006AEEC8 /* Assets.xcassets */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B6FFB9361FD988A3006AEEC8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B6FFB9331FD98892006AEEC8 /* TransactionModel.h */,
+				B6FFB9341FD98892006AEEC8 /* TransactionModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B6FFB9431FDB005B006AEEC8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B6FFB8F31FD81798006AEEC8 /* AppDelegate.m */,
+				B6FFB8F21FD81798006AEEC8 /* AppDelegate.h */,
+				B6FFB9011FD81798006AEEC8 /* main.m */,
+				B6FFB8FD1FD81798006AEEC8 /* LaunchScreen.storyboard */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B7CA0EC3988309DE997BB296 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A25D25A3D4471C77C1CF547A /* Pods-Planise.debug.xcconfig */,
+				F71C618173AD2EAB4F113CDF /* Pods-Planise.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CCE013722A48C9E21870FBB8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				44E48B599F38F213BD08451E /* libPods-Planise.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B6FFB8EE1FD81798006AEEC8 /* Planise */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6FFB91B1FD81798006AEEC8 /* Build configuration list for PBXNativeTarget "Planise" */;
+			buildPhases = (
+				F63CD0D96682EE3520ABCB53 /* [CP] Check Pods Manifest.lock */,
+				B6FFB8EB1FD81798006AEEC8 /* Sources */,
+				B6FFB8EC1FD81798006AEEC8 /* Frameworks */,
+				B6FFB8ED1FD81798006AEEC8 /* Resources */,
+				05A10A2CB8D2DC19BD939E58 /* [CP] Embed Pods Frameworks */,
+				9F9A8A741AA63B13AF26D1F6 /* [CP] Copy Pods Resources */,
+				B6FFB93F1FD9DDCB006AEEC8 /* Prepare for Distribution */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Planise;
+			productName = Planise;
+			productReference = B6FFB8EF1FD81798006AEEC8 /* Planise.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B6FFB9061FD81798006AEEC8 /* PlaniseTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6FFB91E1FD81798006AEEC8 /* Build configuration list for PBXNativeTarget "PlaniseTests" */;
+			buildPhases = (
+				B6FFB9031FD81798006AEEC8 /* Sources */,
+				B6FFB9041FD81798006AEEC8 /* Frameworks */,
+				B6FFB9051FD81798006AEEC8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B6FFB9091FD81798006AEEC8 /* PBXTargetDependency */,
+			);
+			name = PlaniseTests;
+			productName = PlaniseTests;
+			productReference = B6FFB9071FD81798006AEEC8 /* PlaniseTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B6FFB9111FD81798006AEEC8 /* PlaniseUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6FFB9211FD81798006AEEC8 /* Build configuration list for PBXNativeTarget "PlaniseUITests" */;
+			buildPhases = (
+				B6FFB90E1FD81798006AEEC8 /* Sources */,
+				B6FFB90F1FD81798006AEEC8 /* Frameworks */,
+				B6FFB9101FD81798006AEEC8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B6FFB9141FD81798006AEEC8 /* PBXTargetDependency */,
+			);
+			name = PlaniseUITests;
+			productName = PlaniseUITests;
+			productReference = B6FFB9121FD81798006AEEC8 /* PlaniseUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B6FFB8E71FD81798006AEEC8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "Yul Lee Kim";
+				TargetAttributes = {
+					B6FFB8EE1FD81798006AEEC8 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					B6FFB9061FD81798006AEEC8 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B6FFB8EE1FD81798006AEEC8;
+					};
+					B6FFB9111FD81798006AEEC8 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B6FFB8EE1FD81798006AEEC8;
+					};
+				};
+			};
+			buildConfigurationList = B6FFB8EA1FD81798006AEEC8 /* Build configuration list for PBXProject "Planise" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B6FFB8E61FD81798006AEEC8;
+			productRefGroup = B6FFB8F01FD81798006AEEC8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B6FFB8EE1FD81798006AEEC8 /* Planise */,
+				B6FFB9061FD81798006AEEC8 /* PlaniseTests */,
+				B6FFB9111FD81798006AEEC8 /* PlaniseUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B6FFB8ED1FD81798006AEEC8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6FFB8FF1FD81798006AEEC8 /* LaunchScreen.storyboard in Resources */,
+				B6FFB8FC1FD81798006AEEC8 /* Assets.xcassets in Resources */,
+				B6FFB8FA1FD81798006AEEC8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6FFB9051FD81798006AEEC8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6FFB9101FD81798006AEEC8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		05A10A2CB8D2DC19BD939E58 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Planise/Pods-Planise-frameworks.sh",
+				"${PODS_ROOT}/Plaid/ios/LinkKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LinkKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Planise/Pods-Planise-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9F9A8A741AA63B13AF26D1F6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Planise/Pods-Planise-resources.sh",
+				"${PODS_ROOT}/GTMOAuth2/Source/Touch/GTMOAuth2ViewTouch.xib",
+				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Planise/Pods-Planise-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B6FFB93F1FD9DDCB006AEEC8 /* Prepare for Distribution */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Prepare for Distribution";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "LINK_ROOT=${PODS_ROOT:+$PODS_ROOT/Plaid/ios}\ncp \"${LINK_ROOT:-$PROJECT_DIR/..}\"/LinkKit.framework/prepare_for_distribution.sh \"${CODESIGNING_FOLDER_PATH}\"/Frameworks/LinkKit.framework/prepare_for_distribution.sh\n\"${CODESIGNING_FOLDER_PATH}\"/Frameworks/LinkKit.framework/prepare_for_distribution.sh\n";
+		};
+		F63CD0D96682EE3520ABCB53 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Planise-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B6FFB8EB1FD81798006AEEC8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6FFB8F71FD81798006AEEC8 /* ViewController.m in Sources */,
+				B6FFB9351FD98892006AEEC8 /* TransactionModel.m in Sources */,
+				B6FFB9021FD81798006AEEC8 /* main.m in Sources */,
+				B6FFB93C1FD9C95A006AEEC8 /* MainViewController.m in Sources */,
+				B6FFB9421FDAB5A9006AEEC8 /* AccountViewController.m in Sources */,
+				B6FFB9321FD9188E006AEEC8 /* AddViewController.m in Sources */,
+				B6FFB8F41FD81798006AEEC8 /* AppDelegate.m in Sources */,
+				B6FFB92F1FD91249006AEEC8 /* Transaction.m in Sources */,
+				B6FFB92B1FD8DDF8006AEEC8 /* TableViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6FFB9031FD81798006AEEC8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6FFB90C1FD81798006AEEC8 /* PlaniseTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6FFB90E1FD81798006AEEC8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6FFB9171FD81798006AEEC8 /* PlaniseUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B6FFB9091FD81798006AEEC8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B6FFB8EE1FD81798006AEEC8 /* Planise */;
+			targetProxy = B6FFB9081FD81798006AEEC8 /* PBXContainerItemProxy */;
+		};
+		B6FFB9141FD81798006AEEC8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B6FFB8EE1FD81798006AEEC8 /* Planise */;
+			targetProxy = B6FFB9131FD81798006AEEC8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B6FFB8F81FD81798006AEEC8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B6FFB8F91FD81798006AEEC8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B6FFB8FD1FD81798006AEEC8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B6FFB8FE1FD81798006AEEC8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B6FFB9191FD81798006AEEC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B6FFB91A1FD81798006AEEC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B6FFB91C1FD81798006AEEC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A25D25A3D4471C77C1CF547A /* Pods-Planise.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YJS299575Z;
+				INFOPLIST_FILE = Planise/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LINK_ENV = Sandbox;
+				LINK_KEY = test_key;
+				PRODUCT_BUNDLE_IDENTIFIER = Usc.Planise;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B6FFB91D1FD81798006AEEC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F71C618173AD2EAB4F113CDF /* Pods-Planise.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YJS299575Z;
+				INFOPLIST_FILE = Planise/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LINK_ENV = Production;
+				LINK_KEY = 8dab9a5bd2f9dd9ec6c1d03b1f4ca1;
+				PRODUCT_BUNDLE_IDENTIFIER = Usc.Planise;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B6FFB91F1FD81798006AEEC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YJS299575Z;
+				INFOPLIST_FILE = PlaniseTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Usc.PlaniseTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Planise.app/Planise";
+			};
+			name = Debug;
+		};
+		B6FFB9201FD81798006AEEC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YJS299575Z;
+				INFOPLIST_FILE = PlaniseTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Usc.PlaniseTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Planise.app/Planise";
+			};
+			name = Release;
+		};
+		B6FFB9221FD81798006AEEC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YJS299575Z;
+				INFOPLIST_FILE = PlaniseUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Usc.PlaniseUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Planise;
+			};
+			name = Debug;
+		};
+		B6FFB9231FD81798006AEEC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YJS299575Z;
+				INFOPLIST_FILE = PlaniseUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Usc.PlaniseUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Planise;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B6FFB8EA1FD81798006AEEC8 /* Build configuration list for PBXProject "Planise" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6FFB9191FD81798006AEEC8 /* Debug */,
+				B6FFB91A1FD81798006AEEC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6FFB91B1FD81798006AEEC8 /* Build configuration list for PBXNativeTarget "Planise" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6FFB91C1FD81798006AEEC8 /* Debug */,
+				B6FFB91D1FD81798006AEEC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6FFB91E1FD81798006AEEC8 /* Build configuration list for PBXNativeTarget "PlaniseTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6FFB91F1FD81798006AEEC8 /* Debug */,
+				B6FFB9201FD81798006AEEC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6FFB9211FD81798006AEEC8 /* Build configuration list for PBXNativeTarget "PlaniseUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6FFB9221FD81798006AEEC8 /* Debug */,
+				B6FFB9231FD81798006AEEC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B6FFB8E71FD81798006AEEC8 /* Project object */;
+}
